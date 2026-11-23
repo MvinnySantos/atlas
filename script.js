@@ -41,7 +41,7 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
 document.getElementById('year').textContent = new Date().getFullYear();
 
-const WHATSAPP_NUMBER = '5571986821061';
+const WHATSAPP_NUMBER = '5571994125137';
 
 document.querySelectorAll('.whatsapp-link').forEach((link) => {
   const currentUrl = new URL(link.href);
